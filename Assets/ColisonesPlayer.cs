@@ -15,4 +15,9 @@ public class ColisonesPlayer : MonoBehaviour
     {
         
     }
+
+    void OnCollisionEnter2D()
+    {
+        Destroy(gameObject);
+    }
 }
