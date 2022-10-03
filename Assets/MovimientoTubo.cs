@@ -21,6 +21,6 @@ public class MovimientoTubo : MonoBehaviour
             transform.position = new Vector2(6.4f,transform.position.y);
         }
 
-        transform.Translate(velocidad, 0, 0);  
+        transform.Translate(velocidad * Time.deltaTime, 0, 0);  
     }
 }
